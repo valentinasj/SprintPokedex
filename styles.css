@@ -1,0 +1,67 @@
+html{
+   font-family: 'Dosis', sans-serif;
+}
+  
+h2{
+    color: ghostwhite;
+}
+
+body{
+     margin: 0;
+    background-image: url("img/fnegro.jpg");
+    background-size: 100%;
+    
+}
+
+header{
+    display: flex ;
+    height: 20px;
+    background-color: rgb(28, 27, 27);
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contenido{
+   margin: 50px;
+   padding: 50;
+   background:white; 
+   color: grey;
+}
+
+.main-seccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer {
+    background: #ffffff ;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%; 
+  }
+  
+  .footer_img img:hover {
+    opacity: 0.3;
+    border-radius: 22px;
+    border: 3px solid #ffffff;
+    margin: 15px;
+  }
+
+  .footer_img{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+
+  }
